@@ -1,3 +1,3 @@
-preco = float(input("Digite qual o preço do produto: "))
-desconto = (preco * 0.05) - preco
-print("Com o desconto fica {}".format(desconto))
+n1 = int(input("Qual o preço: "))
+r  = (-n1 *0.05)+n1
+print("O valor do preco final é {} ".format(r))
